@@ -1,0 +1,121 @@
+body.ch-ba{
+	background-color:#f9f9f9;
+}
+.section{
+	width:100%;
+	height:auto;
+}
+.main-part{
+	padding-top:100px;
+}
+.register{
+	width:854px;
+	background-color:#fff;
+	margin:0 auto;
+	text-align:center;
+	padding-bottom:80px;
+}
+.register>img{
+	background-color:#FF6700;
+	margin-bottom:40px;
+}
+.register>h1{
+	font-weight:400;
+	font-size:30px;
+	margin-bottom:30px;
+}
+.register>.register-info{
+	width:332px;
+	text-align:left;
+	color:#333;
+	font-size:14px;
+	margin:0 auto;
+}
+.register>.register-info>h4{
+	font-weight:400;
+}
+.register>.register-info>h4:first-child{
+	margin-bottom:5px;
+}
+.register>.register-info>.country{
+	width:332px;
+	height:40px;
+	line-height:40px;
+	border:1px solid #E8E8E8;
+	padding-left:15px;
+	box-sizing:border-box;
+	margin-bottom:5px;
+	cursor:pointer;
+}
+.register>.register-info>.country>p{
+	display:inline-block;
+	width:276px;
+	height:40px;
+	border-right:1px solid #E8E8E8;
+}
+.register>.register-info>.country>i{
+	width:16px;
+	height:16px;
+	display:inline-block;
+	background-position:-10px;
+	background:url(../images/icon_user.png) no-repeat;
+	margin-left:8px;
+}
+.register>.register-info>p.change{
+	margin-bottom:15px;
+}
+.register>.register-info>.phone{
+	width:332px;
+	height:40px;
+	line-height:40px;
+	box-sizing:border-box;
+	margin-bottom:10px;
+}
+.register>.register-info>.phone input{
+	display:inline-block;
+	width:256px;
+	height:40px;
+	box-sizing:border-box;
+	outline:none;
+	border:none;
+	padding:0 10px;
+	border:1px solid #E8E8E8;
+    position: relative;
+    bottom: 2px;
+}
+.register>.register-info>.phone .phone-area{
+	display:inline-block;
+	width:76px;
+	height:40px;
+	border:1px solid #E8E8E8;
+	padding-left:10px;
+    border-right: none;
+    box-sizing: border-box;
+	cursor:pointer;
+}
+.register>.register-info #phone-msg{
+	height:16px;
+	margin:5px 0;
+}
+.register>.register-info>input{
+	width:332px;
+	height:42px;
+	line-height:42px;
+	outline:none;
+	border:none;
+	box-sizing:border-box;
+	background-color:#FF6700;
+	color:#fff;
+	margin:0 0 10px 0;
+	cursor:pointer;
+}
+.register>.register-info>input:hover{
+	background-color:#FF936A;
+}
+.register>.register-info>p:last-child{
+	color:#9d9d9d;
+}
+.register>.register-info>p:last-child a{
+	color:#333;
+	font-weight:bold;
+}

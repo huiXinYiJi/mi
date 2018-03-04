@@ -1,0 +1,181 @@
+/************head-bar**************/
+.head-logo{
+	width:1130px;
+	height:98px;
+	background:url(../images/mistore_logo.png) no-repeat;
+	margin:0 auto;
+}
+.head-bar a{
+	/*div中a链接可点击*/
+	display:block;
+	width:200px;
+	height:98px;
+}
+/************foot-bar**************/
+.foot-bar{
+	width:100%;
+	text-align:center;
+	font-size:14px;
+	color:#757575;
+	padding-bottom:50px;
+}
+.foot-bar p.language{
+	padding-bottom:10px;
+}
+.foot-bar p.language a.actived{
+	color:#333;
+}
+.foot-bar p a{
+	color:#757575;
+}
+.foot-bar p.language span{
+	margin:0 5px;
+}
+/************login-main**************/
+.login-main{
+	width:100%;
+	background:url(../images/523923ee3d985386d832e082980e4de9.jpg) no-repeat  top center;
+	height:588px;
+	margin-bottom:120px;
+}
+.login-main .login-content{
+	background-color:#fff;
+	width:410px;
+	float:right;
+	margin:3% 10% 0 0;
+}
+.login-main .login-content div#tabs{
+	width:410px;
+	height:82px;
+	line-height:82px;
+	font-size:24px;
+	text-align:center
+}
+.login-main .login-content div#tabs a{
+	color:#666;
+}
+.login-main .login-content div#tabs span{
+	border-right:1px solid #e0e0e0;
+	margin:0 35px 0 42px;
+}
+/**********登陆框部分****************/
+#content{
+	/*为content下的两个div设置定位*/
+	position:relative;
+}
+
+#acco-login{
+	width:410px;
+	background-color:#fff;
+	/*设置定位*/
+	position:absolute;
+	top:0;
+}
+#acco-login input{
+	width:346px;
+	height:48px;
+	outline:none;
+	padding:0 15px;
+	margin:7px 32px;
+	box-sizing:border-box;
+	border:1px solid #E0E0E0;
+}
+#acco-login input#submit{
+	width:346px;
+	height:50px;
+	background-color:#f56600;
+	color:#fff;
+	border:none;
+	margin-top:15px;
+	font-size:14px;
+}
+#acco-login>p.forget{
+	color:#999;
+	font-size:14px;
+	text-align:right;
+	margin:0 32px 100px 32px;
+}
+#acco-login>p.forget a{
+	color:#999;
+}
+#acco-login>p.forget a:hover{
+	color:#f56600;
+}
+#acco-login>fieldset{
+	border:none;
+	border-top:1px solid #E0E0E0;
+	text-align:center;
+	font-size:14px;
+	color:#bbb;
+}
+/**********其他登陆方式****************/
+#acco-login>p.other-way{
+	min-height:27px;
+	color: #747474;
+	text-align:center;
+	margin:0 32px 60px;
+}
+#acco-login>p.other-way a{
+	/*a链接行内块，设置成圆形*/
+	display:inline-block;
+	width:30px;
+	height:30px;
+	border-radius:50%;
+	background-color:#747474;
+	margin:0 17px;
+}
+#acco-login>p.other-way a>i{
+	/*i设置背景图片，行内块宽度以及在a中的位置*/
+	display:inline-block;
+	width:18px;
+	height:18px;
+	background:url(../images/icons_type.png);
+	margin:5px 0 0;
+}
+/***调每个小图标的位置****/
+#acco-login>p.other-way a i.qq{
+	background-position:-19px;
+}
+#acco-login>p.other-way a i.weibo{
+	background-position:-38px;
+}
+#acco-login>p.other-way a i.alipay{
+	background-position:-57px;
+	margin-left: 3px;
+    width: 26px;
+}
+#acco-login>p.other-way a i.wechat{
+	width:23px;
+	background-position:-83px;
+}
+/******悬停时换背景色********/
+#acco-login>p.other-way a:first-child:hover{
+	background-color:#0288D1;
+}
+#acco-login>p.other-way a:nth-child(2):hover{
+	background-color:#D32F2F;
+}
+#acco-login>p.other-way a:nth-child(3):hover{
+	background-color:#00AAEE;
+}
+#acco-login>p.other-way a:last-child:hover{
+	background-color:#00D20D;
+}
+/**********扫码登陆****************/
+#scan-code{
+	width:410px;
+	height:437px;
+	background-color:#fff;
+	text-align:center;
+	font-size:14px;
+	color:#757575;
+	/*设置定位*/
+	position:absolute;
+	top:0;
+}
+#scan-code>p>span{
+	color:#f56600;
+}
+#scan-code>img{
+	padding:85px 0 20px;
+}
